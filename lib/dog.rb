@@ -5,10 +5,10 @@ class Dog
   def name 
     return @name
   end
-  def breeds=(dogs_breeds)
-    @breeds = dogs_breeds
+  def breed=(dogs_breeds)
+    @breed = dogs_breeds
   end
   def breed
-    return @breeds
+    return @breed
   end
 end
